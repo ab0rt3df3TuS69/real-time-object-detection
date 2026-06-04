@@ -11,20 +11,34 @@ The objective is to study the complete computer vision pipeline, including frame
 ## Project Pipeline
 
 Webcam
+
 ↓
+
 Frame Acquisition
+
 ↓
-Image Preprocessing
+
+Image Preprocessing 
+
 ↓
-YOLOv8 Inference
+
+YOLOv8 Inference 
+
 ↓
+
 Bounding Boxes
 ↓
+
 Class Labels
+
 ↓
+
 Confidence Scores
+
 ↓
+
 Performance Evaluation
+
 
 ---
 

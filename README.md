@@ -27,6 +27,7 @@ YOLOv8 Inference
 ↓
 
 Bounding Boxes
+
 ↓
 
 Class Labels

@@ -7,3 +7,10 @@ The system maintained an average FPS of around 15 during testing. Different came
 The webcam was found to be operating at approximately 15 FPS, while YOLOv8n required only about 22-26 ms for inference. This indicated that the model was capable of processing frames faster than they were being captured.
 
 Therefore, the overall system performance was limited mainly by the webcam frame rate and not by the object detection model. The results also confirmed that the system was able to perform object detection reliably in real time.
+
+Observation:
+Average FPS: ~15 FPS
+Webcam Resolution Tested: Up to 1920×1080
+Average YOLOv8n Inference Time: 22-26 ms per frame
+Inference:
+The object detection pipeline successfully processed incoming frames in real time. The primary performance bottleneck was identified as the webcam frame rate rather than the computational performance of the YOLO model.
